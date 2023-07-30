@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313AAD382A76D71B00555AFE /* SosyalimAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */; };
+		313AAD3A2A76D71B00555AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD392A76D71B00555AFE /* ContentView.swift */; };
+		313AAD3C2A76D71C00555AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313AAD3B2A76D71C00555AFE /* Assets.xcassets */; };
+		313AAD402A76D71C00555AFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313AAD3F2A76D71C00555AFE /* Preview Assets.xcassets */; };
+		313AAD4A2A76D71C00555AFE /* SosyalimAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD492A76D71C00555AFE /* SosyalimAppTests.swift */; };
+		313AAD542A76D71C00555AFE /* SosyalimAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD532A76D71C00555AFE /* SosyalimAppUITests.swift */; };
+		313AAD562A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD552A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		313AAD462A76D71C00555AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313AAD2C2A76D71B00555AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 313AAD332A76D71B00555AFE;
+			remoteInfo = SosyalimApp;
+		};
+		313AAD502A76D71C00555AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 313AAD2C2A76D71B00555AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 313AAD332A76D71B00555AFE;
+			remoteInfo = SosyalimApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		313AAD342A76D71B00555AFE /* SosyalimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosyalimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppApp.swift; sourceTree = "<group>"; };
+		313AAD392A76D71B00555AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		313AAD3B2A76D71C00555AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		313AAD3D2A76D71C00555AFE /* SosyalimApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SosyalimApp.entitlements; sourceTree = "<group>"; };
+		313AAD3F2A76D71C00555AFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		313AAD452A76D71C00555AFE /* SosyalimAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalimAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313AAD492A76D71C00555AFE /* SosyalimAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppTests.swift; sourceTree = "<group>"; };
+		313AAD4F2A76D71C00555AFE /* SosyalimAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalimAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		313AAD532A76D71C00555AFE /* SosyalimAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppUITests.swift; sourceTree = "<group>"; };
+		313AAD552A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		313AAD312A76D71B00555AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD422A76D71C00555AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD4C2A76D71C00555AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313AAD2B2A76D71B00555AFE = {
+			isa = PBXGroup;
+			children = (
+				313AAD362A76D71B00555AFE /* SosyalimApp */,
+				313AAD482A76D71C00555AFE /* SosyalimAppTests */,
+				313AAD522A76D71C00555AFE /* SosyalimAppUITests */,
+				313AAD352A76D71B00555AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		313AAD352A76D71B00555AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD342A76D71B00555AFE /* SosyalimApp.app */,
+				313AAD452A76D71C00555AFE /* SosyalimAppTests.xctest */,
+				313AAD4F2A76D71C00555AFE /* SosyalimAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		313AAD362A76D71B00555AFE /* SosyalimApp */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */,
+				313AAD392A76D71B00555AFE /* ContentView.swift */,
+				313AAD3B2A76D71C00555AFE /* Assets.xcassets */,
+				313AAD3D2A76D71C00555AFE /* SosyalimApp.entitlements */,
+				313AAD3E2A76D71C00555AFE /* Preview Content */,
+			);
+			path = SosyalimApp;
+			sourceTree = "<group>";
+		};
+		313AAD3E2A76D71C00555AFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD3F2A76D71C00555AFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		313AAD482A76D71C00555AFE /* SosyalimAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD492A76D71C00555AFE /* SosyalimAppTests.swift */,
+			);
+			path = SosyalimAppTests;
+			sourceTree = "<group>";
+		};
+		313AAD522A76D71C00555AFE /* SosyalimAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD532A76D71C00555AFE /* SosyalimAppUITests.swift */,
+				313AAD552A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift */,
+			);
+			path = SosyalimAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		313AAD332A76D71B00555AFE /* SosyalimApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313AAD592A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimApp" */;
+			buildPhases = (
+				313AAD302A76D71B00555AFE /* Sources */,
+				313AAD312A76D71B00555AFE /* Frameworks */,
+				313AAD322A76D71B00555AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SosyalimApp;
+			productName = SosyalimApp;
+			productReference = 313AAD342A76D71B00555AFE /* SosyalimApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		313AAD442A76D71C00555AFE /* SosyalimAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313AAD5C2A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimAppTests" */;
+			buildPhases = (
+				313AAD412A76D71C00555AFE /* Sources */,
+				313AAD422A76D71C00555AFE /* Frameworks */,
+				313AAD432A76D71C00555AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				313AAD472A76D71C00555AFE /* PBXTargetDependency */,
+			);
+			name = SosyalimAppTests;
+			productName = SosyalimAppTests;
+			productReference = 313AAD452A76D71C00555AFE /* SosyalimAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		313AAD4E2A76D71C00555AFE /* SosyalimAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313AAD5F2A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimAppUITests" */;
+			buildPhases = (
+				313AAD4B2A76D71C00555AFE /* Sources */,
+				313AAD4C2A76D71C00555AFE /* Frameworks */,
+				313AAD4D2A76D71C00555AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				313AAD512A76D71C00555AFE /* PBXTargetDependency */,
+			);
+			name = SosyalimAppUITests;
+			productName = SosyalimAppUITests;
+			productReference = 313AAD4F2A76D71C00555AFE /* SosyalimAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		313AAD2C2A76D71B00555AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					313AAD332A76D71B00555AFE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					313AAD442A76D71C00555AFE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 313AAD332A76D71B00555AFE;
+					};
+					313AAD4E2A76D71C00555AFE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 313AAD332A76D71B00555AFE;
+					};
+				};
+			};
+			buildConfigurationList = 313AAD2F2A76D71B00555AFE /* Build configuration list for PBXProject "SosyalimApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 313AAD2B2A76D71B00555AFE;
+			productRefGroup = 313AAD352A76D71B00555AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				313AAD332A76D71B00555AFE /* SosyalimApp */,
+				313AAD442A76D71C00555AFE /* SosyalimAppTests */,
+				313AAD4E2A76D71C00555AFE /* SosyalimAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		313AAD322A76D71B00555AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AAD402A76D71C00555AFE /* Preview Assets.xcassets in Resources */,
+				313AAD3C2A76D71C00555AFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD432A76D71C00555AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD4D2A76D71C00555AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313AAD302A76D71B00555AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AAD3A2A76D71B00555AFE /* ContentView.swift in Sources */,
+				313AAD382A76D71B00555AFE /* SosyalimAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD412A76D71C00555AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AAD4A2A76D71C00555AFE /* SosyalimAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313AAD4B2A76D71C00555AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313AAD542A76D71C00555AFE /* SosyalimAppUITests.swift in Sources */,
+				313AAD562A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		313AAD472A76D71C00555AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 313AAD332A76D71B00555AFE /* SosyalimApp */;
+			targetProxy = 313AAD462A76D71C00555AFE /* PBXContainerItemProxy */;
+		};
+		313AAD512A76D71C00555AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 313AAD332A76D71B00555AFE /* SosyalimApp */;
+			targetProxy = 313AAD502A76D71C00555AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		313AAD572A76D71C00555AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		313AAD582A76D71C00555AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		313AAD5A2A76D71C00555AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SosyalimApp/SosyalimApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosyalimApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		313AAD5B2A76D71C00555AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SosyalimApp/SosyalimApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SosyalimApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		313AAD5D2A76D71C00555AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalimApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalimApp";
+			};
+			name = Debug;
+		};
+		313AAD5E2A76D71C00555AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SosyalimApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SosyalimApp";
+			};
+			name = Release;
+		};
+		313AAD602A76D71C00555AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalimApp;
+			};
+			name = Debug;
+		};
+		313AAD612A76D71C00555AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozancck.SosyalimAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SosyalimApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		313AAD2F2A76D71B00555AFE /* Build configuration list for PBXProject "SosyalimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AAD572A76D71C00555AFE /* Debug */,
+				313AAD582A76D71C00555AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313AAD592A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AAD5A2A76D71C00555AFE /* Debug */,
+				313AAD5B2A76D71C00555AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313AAD5C2A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AAD5D2A76D71C00555AFE /* Debug */,
+				313AAD5E2A76D71C00555AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		313AAD5F2A76D71C00555AFE /* Build configuration list for PBXNativeTarget "SosyalimAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313AAD602A76D71C00555AFE /* Debug */,
+				313AAD612A76D71C00555AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 313AAD2C2A76D71B00555AFE /* Project object */;
+}
