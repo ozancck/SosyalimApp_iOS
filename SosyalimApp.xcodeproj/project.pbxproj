@@ -114,10 +114,6 @@
 		313AAD2B2A76D71B00555AFE = {
 			isa = PBXGroup;
 			children = (
-				31C3528C2A7EEDAF005BA25C /* ViewModel */,
-				31C352802A7EE55A005BA25C /* Model */,
-				313AAD652A76D8B000555AFE /* ButtonModifiers */,
-				313AAD622A76D73900555AFE /* Views */,
 				313AAD362A76D71B00555AFE /* SosyalimApp */,
 				313AAD482A76D71C00555AFE /* SosyalimAppTests */,
 				313AAD522A76D71C00555AFE /* SosyalimAppUITests */,
@@ -138,6 +134,10 @@
 		313AAD362A76D71B00555AFE /* SosyalimApp */ = {
 			isa = PBXGroup;
 			children = (
+				31C3528C2A7EEDAF005BA25C /* ViewModel */,
+				31C352802A7EE55A005BA25C /* Model */,
+				313AAD652A76D8B000555AFE /* ButtonModifiers */,
+				313AAD622A76D73900555AFE /* Views */,
 				31C352932A7EF5E4005BA25C /* Info.plist */,
 				313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */,
 				313AAD392A76D71B00555AFE /* ContentView.swift */,
@@ -176,6 +176,7 @@
 		313AAD622A76D73900555AFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				31AE77872A8D24F20078FA42 /* HomeScreen */,
 				319BE9B12A7F3B3400A19BD7 /* InApp */,
 				313AAD632A76D75600555AFE /* StartView.swift */,
 				313AAD6C2A76EA3800555AFE /* Login_page.swift */,
@@ -201,6 +202,21 @@
 				319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */,
 			);
 			path = InApp;
+			sourceTree = "<group>";
+		};
+		31AE77872A8D24F20078FA42 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				31AE77882A8D25040078FA42 /* Cell */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		31AE77882A8D25040078FA42 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		31C352802A7EE55A005BA25C /* Model */ = {
