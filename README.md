@@ -1,0 +1,2 @@
+# SosyalimApp_iOS
+
