@@ -25,6 +25,8 @@
 		319BE9B02A7F318E00A19BD7 /* SignUp_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */; };
 		319BE9B52A7F3B5E00A19BD7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */; };
 		31A09B662A791113008A1557 /* SignUp_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A09B652A791113008A1557 /* SignUp_page.swift */; };
+		31AE778A2A8D31950078FA42 /* HomeScreenCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE77892A8D31950078FA42 /* HomeScreenCellView.swift */; };
+		31AE778D2A8D43F70078FA42 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE778C2A8D43F70078FA42 /* HomeScreenViewModel.swift */; };
 		31C352822A7EE5D5005BA25C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352812A7EE5D5005BA25C /* Router.swift */; };
 		31C352852A7EE6BE005BA25C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 31C352842A7EE6BE005BA25C /* Alamofire */; };
 		31C352872A7EEC1E005BA25C /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352862A7EEC1E005BA25C /* loginModel.swift */; };
@@ -75,6 +77,8 @@
 		319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_PageVM.swift; sourceTree = "<group>"; };
 		319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		31A09B652A791113008A1557 /* SignUp_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_page.swift; sourceTree = "<group>"; };
+		31AE77892A8D31950078FA42 /* HomeScreenCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCellView.swift; sourceTree = "<group>"; };
+		31AE778C2A8D43F70078FA42 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
 		31C352812A7EE5D5005BA25C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		31C352862A7EEC1E005BA25C /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
 		31C352882A7EECB7005BA25C /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
@@ -215,8 +219,17 @@
 		31AE77882A8D25040078FA42 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				31AE77892A8D31950078FA42 /* HomeScreenCellView.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		31AE778B2A8D43E00078FA42 /* HomeScreenViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31AE778C2A8D43F70078FA42 /* HomeScreenViewModel.swift */,
+			);
+			path = HomeScreenViewModel;
 			sourceTree = "<group>";
 		};
 		31C352802A7EE55A005BA25C /* Model */ = {
@@ -236,6 +249,7 @@
 		31C3528C2A7EEDAF005BA25C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				31AE778B2A8D43E00078FA42 /* HomeScreenViewModel */,
 				31C3528D2A7EEDC5005BA25C /* Login_PageVM.swift */,
 				319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */,
 				319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */,
@@ -389,6 +403,8 @@
 				312C22BB2A7F256300030CEC /* VerifyModel.swift in Sources */,
 				31C352822A7EE5D5005BA25C /* Router.swift in Sources */,
 				31C352872A7EEC1E005BA25C /* loginModel.swift in Sources */,
+				31AE778A2A8D31950078FA42 /* HomeScreenCellView.swift in Sources */,
+				31AE778D2A8D43F70078FA42 /* HomeScreenViewModel.swift in Sources */,
 				31C352922A7EF3FD005BA25C /* User.swift in Sources */,
 				313AAD6D2A76EA3800555AFE /* Login_page.swift in Sources */,
 				313AAD6F2A76F6A600555AFE /* SecureFieldModifiers.swift in Sources */,
