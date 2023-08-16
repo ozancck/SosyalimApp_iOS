@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312C22B92A7F226700030CEC /* Verify_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C22B82A7F226700030CEC /* Verify_page.swift */; };
+		312C22BB2A7F256300030CEC /* VerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312C22BA2A7F256300030CEC /* VerifyModel.swift */; };
 		313AAD382A76D71B00555AFE /* SosyalimAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */; };
 		313AAD3A2A76D71B00555AFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD392A76D71B00555AFE /* ContentView.swift */; };
 		313AAD3C2A76D71C00555AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 313AAD3B2A76D71C00555AFE /* Assets.xcassets */; };
@@ -14,6 +16,23 @@
 		313AAD4A2A76D71C00555AFE /* SosyalimAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD492A76D71C00555AFE /* SosyalimAppTests.swift */; };
 		313AAD542A76D71C00555AFE /* SosyalimAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD532A76D71C00555AFE /* SosyalimAppUITests.swift */; };
 		313AAD562A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD552A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift */; };
+		313AAD642A76D75600555AFE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD632A76D75600555AFE /* StartView.swift */; };
+		313AAD672A76D8DA00555AFE /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD662A76D8DA00555AFE /* ButtonModifier.swift */; };
+		313AAD6B2A76E91400555AFE /* TextFieldModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6A2A76E91400555AFE /* TextFieldModifiers.swift */; };
+		313AAD6D2A76EA3800555AFE /* Login_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6C2A76EA3800555AFE /* Login_page.swift */; };
+		313AAD6F2A76F6A600555AFE /* SecureFieldModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6E2A76F6A600555AFE /* SecureFieldModifiers.swift */; };
+		319BE9AE2A7F2C3800A19BD7 /* Verify_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */; };
+		319BE9B02A7F318E00A19BD7 /* SignUp_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */; };
+		319BE9B52A7F3B5E00A19BD7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */; };
+		31A09B662A791113008A1557 /* SignUp_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A09B652A791113008A1557 /* SignUp_page.swift */; };
+		31C352822A7EE5D5005BA25C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352812A7EE5D5005BA25C /* Router.swift */; };
+		31C352852A7EE6BE005BA25C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 31C352842A7EE6BE005BA25C /* Alamofire */; };
+		31C352872A7EEC1E005BA25C /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352862A7EEC1E005BA25C /* loginModel.swift */; };
+		31C352892A7EECB7005BA25C /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352882A7EECB7005BA25C /* SignUpModel.swift */; };
+		31C3528B2A7EED54005BA25C /* AppUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3528A2A7EED54005BA25C /* AppUrl.swift */; };
+		31C3528E2A7EEDC5005BA25C /* Login_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C3528D2A7EEDC5005BA25C /* Login_PageVM.swift */; };
+		31C352922A7EF3FD005BA25C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352912A7EF3FD005BA25C /* User.swift */; };
+		31C352952A7EFC9A005BA25C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C352942A7EFC9A005BA25C /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		312C22B82A7F226700030CEC /* Verify_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verify_page.swift; sourceTree = "<group>"; };
+		312C22BA2A7F256300030CEC /* VerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyModel.swift; sourceTree = "<group>"; };
 		313AAD342A76D71B00555AFE /* SosyalimApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SosyalimApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppApp.swift; sourceTree = "<group>"; };
 		313AAD392A76D71B00555AFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +66,23 @@
 		313AAD4F2A76D71C00555AFE /* SosyalimAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SosyalimAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		313AAD532A76D71C00555AFE /* SosyalimAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppUITests.swift; sourceTree = "<group>"; };
 		313AAD552A76D71C00555AFE /* SosyalimAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		313AAD632A76D75600555AFE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		313AAD662A76D8DA00555AFE /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		313AAD6A2A76E91400555AFE /* TextFieldModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifiers.swift; sourceTree = "<group>"; };
+		313AAD6C2A76EA3800555AFE /* Login_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_page.swift; sourceTree = "<group>"; };
+		313AAD6E2A76F6A600555AFE /* SecureFieldModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldModifiers.swift; sourceTree = "<group>"; };
+		319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verify_PageVM.swift; sourceTree = "<group>"; };
+		319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_PageVM.swift; sourceTree = "<group>"; };
+		319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		31A09B652A791113008A1557 /* SignUp_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_page.swift; sourceTree = "<group>"; };
+		31C352812A7EE5D5005BA25C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		31C352862A7EEC1E005BA25C /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
+		31C352882A7EECB7005BA25C /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		31C3528A2A7EED54005BA25C /* AppUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUrl.swift; sourceTree = "<group>"; };
+		31C3528D2A7EEDC5005BA25C /* Login_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_PageVM.swift; sourceTree = "<group>"; };
+		31C352912A7EF3FD005BA25C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31C352932A7EF5E4005BA25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		31C352942A7EFC9A005BA25C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C352852A7EE6BE005BA25C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +114,10 @@
 		313AAD2B2A76D71B00555AFE = {
 			isa = PBXGroup;
 			children = (
+				31C3528C2A7EEDAF005BA25C /* ViewModel */,
+				31C352802A7EE55A005BA25C /* Model */,
+				313AAD652A76D8B000555AFE /* ButtonModifiers */,
+				313AAD622A76D73900555AFE /* Views */,
 				313AAD362A76D71B00555AFE /* SosyalimApp */,
 				313AAD482A76D71C00555AFE /* SosyalimAppTests */,
 				313AAD522A76D71C00555AFE /* SosyalimAppUITests */,
@@ -95,6 +138,7 @@
 		313AAD362A76D71B00555AFE /* SosyalimApp */ = {
 			isa = PBXGroup;
 			children = (
+				31C352932A7EF5E4005BA25C /* Info.plist */,
 				313AAD372A76D71B00555AFE /* SosyalimAppApp.swift */,
 				313AAD392A76D71B00555AFE /* ContentView.swift */,
 				313AAD3B2A76D71C00555AFE /* Assets.xcassets */,
@@ -129,6 +173,60 @@
 			path = SosyalimAppUITests;
 			sourceTree = "<group>";
 		};
+		313AAD622A76D73900555AFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				319BE9B12A7F3B3400A19BD7 /* InApp */,
+				313AAD632A76D75600555AFE /* StartView.swift */,
+				313AAD6C2A76EA3800555AFE /* Login_page.swift */,
+				31A09B652A791113008A1557 /* SignUp_page.swift */,
+				312C22B82A7F226700030CEC /* Verify_page.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		313AAD652A76D8B000555AFE /* ButtonModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				313AAD662A76D8DA00555AFE /* ButtonModifier.swift */,
+				313AAD6A2A76E91400555AFE /* TextFieldModifiers.swift */,
+				313AAD6E2A76F6A600555AFE /* SecureFieldModifiers.swift */,
+			);
+			path = ButtonModifiers;
+			sourceTree = "<group>";
+		};
+		319BE9B12A7F3B3400A19BD7 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		31C352802A7EE55A005BA25C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31C352812A7EE5D5005BA25C /* Router.swift */,
+				31C352862A7EEC1E005BA25C /* loginModel.swift */,
+				31C352882A7EECB7005BA25C /* SignUpModel.swift */,
+				31C3528A2A7EED54005BA25C /* AppUrl.swift */,
+				31C352912A7EF3FD005BA25C /* User.swift */,
+				31C352942A7EFC9A005BA25C /* Response.swift */,
+				312C22BA2A7F256300030CEC /* VerifyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31C3528C2A7EEDAF005BA25C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31C3528D2A7EEDC5005BA25C /* Login_PageVM.swift */,
+				319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */,
+				319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +243,9 @@
 			dependencies = (
 			);
 			name = SosyalimApp;
+			packageProductDependencies = (
+				31C352842A7EE6BE005BA25C /* Alamofire */,
+			);
 			productName = SosyalimApp;
 			productReference = 313AAD342A76D71B00555AFE /* SosyalimApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 313AAD2B2A76D71B00555AFE;
+			packageReferences = (
+				31C352832A7EE6BE005BA25C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 313AAD352A76D71B00555AFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +363,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313AAD6B2A76E91400555AFE /* TextFieldModifiers.swift in Sources */,
+				313AAD642A76D75600555AFE /* StartView.swift in Sources */,
+				313AAD672A76D8DA00555AFE /* ButtonModifier.swift in Sources */,
+				31C3528B2A7EED54005BA25C /* AppUrl.swift in Sources */,
+				31C352952A7EFC9A005BA25C /* Response.swift in Sources */,
+				319BE9B02A7F318E00A19BD7 /* SignUp_PageVM.swift in Sources */,
 				313AAD3A2A76D71B00555AFE /* ContentView.swift in Sources */,
+				312C22BB2A7F256300030CEC /* VerifyModel.swift in Sources */,
+				31C352822A7EE5D5005BA25C /* Router.swift in Sources */,
+				31C352872A7EEC1E005BA25C /* loginModel.swift in Sources */,
+				31C352922A7EF3FD005BA25C /* User.swift in Sources */,
+				313AAD6D2A76EA3800555AFE /* Login_page.swift in Sources */,
+				313AAD6F2A76F6A600555AFE /* SecureFieldModifiers.swift in Sources */,
+				31C352892A7EECB7005BA25C /* SignUpModel.swift in Sources */,
+				31C3528E2A7EEDC5005BA25C /* Login_PageVM.swift in Sources */,
+				319BE9AE2A7F2C3800A19BD7 /* Verify_PageVM.swift in Sources */,
+				312C22B92A7F226700030CEC /* Verify_page.swift in Sources */,
+				31A09B662A791113008A1557 /* SignUp_page.swift in Sources */,
+				319BE9B52A7F3B5E00A19BD7 /* TabBarView.swift in Sources */,
 				313AAD382A76D71B00555AFE /* SosyalimAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +539,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SosyalimApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SosyalimApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +576,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SosyalimApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SosyalimApp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -604,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31C352832A7EE6BE005BA25C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31C352842A7EE6BE005BA25C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31C352832A7EE6BE005BA25C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 313AAD2C2A76D71B00555AFE /* Project object */;
 }
