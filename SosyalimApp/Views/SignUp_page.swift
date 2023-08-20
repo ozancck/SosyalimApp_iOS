@@ -24,13 +24,13 @@ struct SignUp_page: View {
     @State var passError = false
     
     
-    let name_label = "Ad Soyad"
+    let name_label = "SIGNUP_PAGE_VIEW_NAME_LABEL_TITLE"
     @State private var name = ""
 
-    let mail_label = "E-Posta"
+    let mail_label = "SIGNUP_PAGE_VIEW_MAIL_LABEL_TITLE"
     @State private var mail = ""
 
-    let pass_label = "Şifre"
+    let pass_label = "SIGNUP_PAGE_VIEW_PASSWORD_LABEL_TITLE"
     @State private var pass = ""
 
     var body: some View {
@@ -163,7 +163,7 @@ struct SignUp_page: View {
                         }
                     
                     } label: {
-                        Text("Kayıt Ol")
+                        Text("SIGNUP_PAGE_VIEW_SIGN_UP_BUTTON_TITLE")
                             .modifier(ButtonModifier(buttonType: .blueButton))
 
                     }.padding(.top)
@@ -172,7 +172,7 @@ struct SignUp_page: View {
                         VStack {
                             Divider()
                         }
-                        Text("Veya")
+                        Text("SIGNUP_PAGE_VIEW_OR_DIVIDER_TITLE")
                             .font(.callout)
                             .foregroundColor(.gray)
                         VStack {
@@ -185,7 +185,7 @@ struct SignUp_page: View {
                     NavigationLink {
                         Login_page()
                     } label: {
-                        RadiusButton(title: "Giriş Yap", color: .gray)
+                        RadiusButton(title: "SIGNUP_PAGE_VIEW_SIGN_IN_BUTTON_TITLE", color: .gray)
                     }
                 }
                 .padding(.bottom, 150)

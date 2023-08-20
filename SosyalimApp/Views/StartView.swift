@@ -47,14 +47,14 @@ struct StartView: View {
                         NavigationLink {
                             Login_page()
                         } label: {
-                            Text("Giriş Yap")
+                            Text("START_VIEW_SIGN_IN_BUTTON_TITLE")
                                 .modifier(ButtonModifier(buttonType: .whiteButton))
                         }
                         
                         NavigationLink {
                             SignUp_page()
                         } label: {
-                            RadiusButton(title: "Kayit Ol", color: .white)
+                            RadiusButton(title:"START_VIEW_SIGN_UP_BUTTON_TITLE", color: .white)
                         }
 
                        

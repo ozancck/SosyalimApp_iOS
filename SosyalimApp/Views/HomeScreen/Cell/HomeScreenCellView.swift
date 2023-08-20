@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeScreenCellView: View {
-    @State var url: String
+    @State var PPurl: String
     @State var name: String
     @State var gender: String
     @State var postDate: String
@@ -23,146 +23,157 @@ struct HomeScreenCellView: View {
             ZStack {
                 
                 
-                HStack {
+              
                     VStack {
-                        AsyncImage(url: URL(string: url)) { image in
-                            switch image {
-                            case let .success(image):
-                                image
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: UIScreen.main.bounds.width * 0.10)
-                                    .clipShape(Circle()) // Görüntüyü daire şeklinde kırpın
-                                                    .overlay(Circle().stroke(Color.white, lineWidth: 2))
-
-                            default: Color.clear
-                            }
-                        }
-                        
-                        Spacer()
-                        
-                        
-                    }
-                    .frame(width: UIScreen.main.bounds.width * 0.10)
-                    
-                    VStack {
-                        HStack {
-                            Text(name)
-                                .font(.headline)
-                                .padding(.trailing, 5)
+                     
+                        HStack(alignment: .top) {
                             
-                            HStack {
-                              
-                                Circle()
-                                    .frame(width: UIScreen.main.bounds.height * 0.007)
-                                    .opacity(0.3)
+                            VStack {
+                                AsyncImage(url: URL(string: PPurl)) { image in
+                                    switch image {
+                                    case let .success(image):
+                                        image
+                                            .resizable()
+                                            .aspectRatio(contentMode: .fit)
+                                            .frame(width: UIScreen.main.bounds.width * 0.10)
+                                            .clipShape(Circle()) // Görüntüyü daire şeklinde kırpın
+                                                            .overlay(Circle().stroke(Color.white, lineWidth: 2))
+
+                                    default: Color.clear
+                                    }
+                                }
                                 
-                                Text(postDate)
-                                    .font(.caption2)
-                                    
                             }
                             
-                            Spacer()
+                           
                             
-                        }
-                        HStack{
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            textWithHashtags(content, color: .blue)
-                                .font(.callout)
-                                .padding(.trailing)
-                                
-
-                        }
-                        
-                        HStack(spacing: 15) {
-                            
-                            HStack(spacing: 2) {
-                                Button {
+                            VStack {
+                                HStack {
+                                  
                                     
-                                } label: {
+                                    Text(name)
+                                        .font(.headline)
+                                        .padding(.trailing, 5)
                                     
-                                    if self.liked {
-                                        Image(systemName: "heart.fill")
-                                            .font(.system(size: 22))
-                                    }else {
-                                        Image(systemName: "heart")
-                                            .font(.system(size: 22))
+                                    HStack {
+                                      
+                                        Circle()
+                                            .frame(width: UIScreen.main.bounds.height * 0.007)
+                                            .opacity(0.3)
+                                        
+                                        Text(postDate)
+                                            .font(.caption2)
+                                            
                                     }
                                     
+                                    Spacer()
+                                    
+                                }
+                                HStack{
                                    
+                                    
+                                    //textWithHashtags(content, color: .blue)
+                                    Text(content)
+                                        .font(.callout)
+                                       
                                         
-                                                    
                                         
-                                    
-                                }
-                                Text(String(like))
-                                    .font(.system(size: 15))
-                            }
-                            
-                            
-                            
-                            HStack(spacing: 2) {
-                                Button {
-                                    
-                                } label: {
-                                    Image(systemName: "message")
-                                        .font(.system(size: 22))
-                                    
-                                    
-                                }
-                                
-                                Text(String(comment))
-                                    .font(.system(size: 15))
-                                
-                                
-                            }
-                            
-                            
-                          
-                            /*
-                            Button {
-                                
-                            } label: {
-                                Image(systemName: "bookmark.square")
-                                    .font(.system(size: 20))
-                                
-                                
-                            }
-                             */
-                            
-                            Spacer()
-                            
-                            
-                            Button {
-                                
-                            } label: {
-                                Image(systemName: "paperplane")
-                                    .font(.system(size: 22))
-                                
-                                
-                            }
-                            
-                            
 
+                                }
+                                
+                                HStack(spacing: 15) {
+                                    
+                                    HStack(spacing: 2) {
+                                        Button {
+                                            
+                                        } label: {
+                                            
+                                            if self.liked {
+                                                Image(systemName: "heart.fill")
+                                                    .font(.system(size: 22))
+                                            }else {
+                                                Image(systemName: "heart")
+                                                    .font(.system(size: 22))
+                                            }
+                                            
+                                           
+                                                
+                                                            
+                                                
+                                            
+                                        }
+                                        Text(String(like))
+                                            .font(.system(size: 15))
+                                    }
+                                    
+                                    
+                                    
+                                    HStack(spacing: 2) {
+                                        Button {
+                                            
+                                        } label: {
+                                            Image(systemName: "message")
+                                                .font(.system(size: 22))
+                                            
+                                            
+                                        }
+                                        
+                                        Text(String(comment))
+                                            .font(.system(size: 15))
+                                        
+                                        
+                                    }
+                                    
+                                    
+                                  
+                                    /*
+                                    Button {
+                                        
+                                    } label: {
+                                        Image(systemName: "bookmark.square")
+                                            .font(.system(size: 20))
+                                        
+                                        
+                                    }
+                                     */
+                                    
+                                    Spacer()
+                                    
+                                    
+                                    Button {
+                                        
+                                    } label: {
+                                        Image(systemName: "paperplane")
+                                            .font(.system(size: 22))
+                                        
+                                        
+                                    }
+                                    
+                                    
+
+                                }
+                                .padding(.top, 0.5)
+                                .padding(.trailing)
+                                .padding(.trailing)
+                                
+                            }
                         }
-                        .padding(.top, 0.5)
-                        .padding(.trailing)
-                        .padding(.trailing)
-                        Spacer()
+                        .padding(.horizontal)
+                        
+                        Divider()
+                       
                     }
+                        
+                    
+                    
+                   
                    
                     
                     
                     
                     
-                }
-                .padding()
+                
+                
 
                 
                 
@@ -197,7 +208,7 @@ struct HomeScreenCellView: View {
 
 struct HomeScreenCellView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreenCellView(url: "https://rickandmortyapi.com/api/character/avatar/1.jpeg", name: "Ozan Cicek", gender: "Male", postDate: "Just Now", content: "Exploring new horizons and embracing every moment. 🌄 #AdventureAwaits #Wanderlust tabi efendim tabi", like: 100, liked: true, comment: 25)
+        HomeScreenCellView(PPurl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg", name: "Ozan Cicek", gender: "Male", postDate: "Just Now", content: "Exploring new horizons and embracing aspdjsalkdfjalsjdfljasdfjaslkfjldskfjlksdjflksdjflksdjflskdjflksdflsdkfjlsdkfjlskdfjksdjlsdkjflksdjfjdfkdjkfjdskflsdkfjlsdkfjevery moment. 🌄 #AdventureAwaits #Wanderlust tabi efendim tabi", like: 100, liked: true, comment: 25)
         
             .previewLayout(.fixed(width: UIScreen.main.bounds.width, height: 500))
     }

@@ -22,10 +22,10 @@ struct Login_page: View {
     @State var error = false
     @State var errorMessage = ""
 
-    let mail_label = "Mail"
+    let mail_label = "LOGIN_PAGE_VIEW_TEXT_FIELD_MAIL_TITLE"
     @State private var mail = ""
 
-    let pass_label = "Sifre"
+    let pass_label = "LOGIN_PAGE_VIEW_TEXT_FIELD_PASSWORD_TITLE"
     @State private var pass = ""
 
     var body: some View {
@@ -106,7 +106,7 @@ struct Login_page: View {
                         Button {
                             print("sadkasodfaoskdfaoskfasokf")
                         } label: {
-                            Text("Sifremi Unuttum?")
+                            Text("LOGIN_PAGE_VIEW_FORGET_PASSWORD_BUTTON_TITLE")
                                 .font(.callout)
                                 .bold()
                                 .foregroundColor(Color("primary"))
@@ -121,12 +121,12 @@ struct Login_page: View {
                         // huseyinakbas@posta.mu.edu.tr
                         
                         if self.mail.isEmpty || self.mail == nil {
-                            self.errorMessage = "E-posta adresi giriniz!"
+                            self.errorMessage = "LOGIN_PAGE_VIEW_TEXT_FIELD_EMPTY_MAIL_ALERT_TITLE"
                             self.error = true
                             
                         }else {
                             if self.pass.isEmpty || self.pass == nil {
-                                self.errorMessage = "Şifre Giriniz!"
+                                self.errorMessage = "LOGIN_PAGE_VIEW_TEXT_FIELD_EMPTY_PASSWORD_ALERT_TITLE"
                                 self.error = true
                                 
                             }else{
@@ -167,7 +167,7 @@ struct Login_page: View {
                        
 
                     } label: {
-                        Text("Giris Yap")
+                        Text("LOGIN_PAGE_VIEW_LOGIN_BUTTON_TITLE")
                             .modifier(ButtonModifier(buttonType: .blueButton))
                     }
                     .onChange(of: self.mail) { newValue in
@@ -188,7 +188,7 @@ struct Login_page: View {
                         VStack {
                             Divider()
                         }
-                        Text("Veya")
+                        Text("LOGIN_PAGE_VIEW_OR_DIVIDER_TITLE")
                             .font(.caption)
                             .foregroundColor(.gray)
                         VStack {
@@ -201,7 +201,7 @@ struct Login_page: View {
                     NavigationLink {
                         SignUp_page()
                     } label: {
-                        RadiusButton(title: "Kayit Ol", color: .gray)
+                        RadiusButton(title: "LOGIN_PAGE_VIEW_SIGN_UP_BUTTON_TITLE", color: .gray)
                     }
                 }
                 

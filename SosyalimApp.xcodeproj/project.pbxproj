@@ -21,6 +21,10 @@
 		313AAD6B2A76E91400555AFE /* TextFieldModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6A2A76E91400555AFE /* TextFieldModifiers.swift */; };
 		313AAD6D2A76EA3800555AFE /* Login_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6C2A76EA3800555AFE /* Login_page.swift */; };
 		313AAD6F2A76F6A600555AFE /* SecureFieldModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AAD6E2A76F6A600555AFE /* SecureFieldModifiers.swift */; };
+		313EE23B2A8FBF210064D78B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 313EE23D2A8FBF210064D78B /* Localizable.strings */; };
+		315B7E332A8ECD0700A7DF74 /* Post_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B7E322A8ECD0700A7DF74 /* Post_view.swift */; };
+		316FEFC12A9015D700E03CC0 /* SosyalimTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FEFC02A9015D700E03CC0 /* SosyalimTabView.swift */; };
+		316FEFC32A90201D00E03CC0 /* HomeScreen_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316FEFC22A90201D00E03CC0 /* HomeScreen_view.swift */; };
 		319BE9AE2A7F2C3800A19BD7 /* Verify_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */; };
 		319BE9B02A7F318E00A19BD7 /* SignUp_PageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */; };
 		319BE9B52A7F3B5E00A19BD7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */; };
@@ -73,6 +77,11 @@
 		313AAD6A2A76E91400555AFE /* TextFieldModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifiers.swift; sourceTree = "<group>"; };
 		313AAD6C2A76EA3800555AFE /* Login_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_page.swift; sourceTree = "<group>"; };
 		313AAD6E2A76F6A600555AFE /* SecureFieldModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldModifiers.swift; sourceTree = "<group>"; };
+		313EE23C2A8FBF210064D78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		313EE23E2A8FBF380064D78B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		315B7E322A8ECD0700A7DF74 /* Post_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post_view.swift; sourceTree = "<group>"; };
+		316FEFC02A9015D700E03CC0 /* SosyalimTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosyalimTabView.swift; sourceTree = "<group>"; };
+		316FEFC22A90201D00E03CC0 /* HomeScreen_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen_view.swift; sourceTree = "<group>"; };
 		319BE9AD2A7F2C3800A19BD7 /* Verify_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verify_PageVM.swift; sourceTree = "<group>"; };
 		319BE9AF2A7F318E00A19BD7 /* SignUp_PageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_PageVM.swift; sourceTree = "<group>"; };
 		319BE9B42A7F3B5E00A19BD7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -148,6 +157,7 @@
 				313AAD3B2A76D71C00555AFE /* Assets.xcassets */,
 				313AAD3D2A76D71C00555AFE /* SosyalimApp.entitlements */,
 				313AAD3E2A76D71C00555AFE /* Preview Content */,
+				313EE23D2A8FBF210064D78B /* Localizable.strings */,
 			);
 			path = SosyalimApp;
 			sourceTree = "<group>";
@@ -180,6 +190,7 @@
 		313AAD622A76D73900555AFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				316FEFBD2A90149300E03CC0 /* TabBar */,
 				31AE77872A8D24F20078FA42 /* HomeScreen */,
 				319BE9B12A7F3B3400A19BD7 /* InApp */,
 				313AAD632A76D75600555AFE /* StartView.swift */,
@@ -200,6 +211,22 @@
 			path = ButtonModifiers;
 			sourceTree = "<group>";
 		};
+		315B7E312A8ECCD600A7DF74 /* PostVıew */ = {
+			isa = PBXGroup;
+			children = (
+				315B7E322A8ECD0700A7DF74 /* Post_view.swift */,
+			);
+			path = "PostVıew";
+			sourceTree = "<group>";
+		};
+		316FEFBD2A90149300E03CC0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				316FEFC02A9015D700E03CC0 /* SosyalimTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		319BE9B12A7F3B3400A19BD7 /* InApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +238,9 @@
 		31AE77872A8D24F20078FA42 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				315B7E312A8ECCD600A7DF74 /* PostVıew */,
 				31AE77882A8D25040078FA42 /* Cell */,
+				316FEFC22A90201D00E03CC0 /* HomeScreen_view.swift */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -346,6 +375,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 313AAD2B2A76D71B00555AFE;
 			packageReferences = (
@@ -368,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				313AAD402A76D71C00555AFE /* Preview Assets.xcassets in Resources */,
+				313EE23B2A8FBF210064D78B /* Localizable.strings in Resources */,
 				313AAD3C2A76D71C00555AFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +427,7 @@
 				313AAD6B2A76E91400555AFE /* TextFieldModifiers.swift in Sources */,
 				313AAD642A76D75600555AFE /* StartView.swift in Sources */,
 				313AAD672A76D8DA00555AFE /* ButtonModifier.swift in Sources */,
+				316FEFC12A9015D700E03CC0 /* SosyalimTabView.swift in Sources */,
 				31C3528B2A7EED54005BA25C /* AppUrl.swift in Sources */,
 				31C352952A7EFC9A005BA25C /* Response.swift in Sources */,
 				319BE9B02A7F318E00A19BD7 /* SignUp_PageVM.swift in Sources */,
@@ -405,6 +437,7 @@
 				31C352872A7EEC1E005BA25C /* loginModel.swift in Sources */,
 				31AE778A2A8D31950078FA42 /* HomeScreenCellView.swift in Sources */,
 				31AE778D2A8D43F70078FA42 /* HomeScreenViewModel.swift in Sources */,
+				316FEFC32A90201D00E03CC0 /* HomeScreen_view.swift in Sources */,
 				31C352922A7EF3FD005BA25C /* User.swift in Sources */,
 				313AAD6D2A76EA3800555AFE /* Login_page.swift in Sources */,
 				313AAD6F2A76F6A600555AFE /* SecureFieldModifiers.swift in Sources */,
@@ -414,6 +447,7 @@
 				312C22B92A7F226700030CEC /* Verify_page.swift in Sources */,
 				31A09B662A791113008A1557 /* SignUp_page.swift in Sources */,
 				319BE9B52A7F3B5E00A19BD7 /* TabBarView.swift in Sources */,
+				315B7E332A8ECD0700A7DF74 /* Post_view.swift in Sources */,
 				313AAD382A76D71B00555AFE /* SosyalimAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,11 +484,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		313EE23D2A8FBF210064D78B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				313EE23C2A8FBF210064D78B /* en */,
+				313EE23E2A8FBF380064D78B /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		313AAD572A76D71C00555AFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -513,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

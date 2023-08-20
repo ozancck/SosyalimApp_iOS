@@ -100,7 +100,7 @@ struct ButtonModifier: ViewModifier {
 }
 
 struct RadiusButton: View {
-    let title: String
+    let title: LocalizedStringKey
     let color: Color
 
     var body: some View {
