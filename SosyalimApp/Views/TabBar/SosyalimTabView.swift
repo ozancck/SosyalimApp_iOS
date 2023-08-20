@@ -10,33 +10,41 @@ import SwiftUI
 struct SosyalimTabView: View {
     
     
-     
     
-      @State var selectedIndex: Int = 0
-      
-      var body: some View {
-          NavigationView {
-              
+    
+    @State var selectedIndex: Int = 0
+    
+    var body: some View {
+       
             
-              CustomTabView(tabs: TabType.allCases.map({ $0.tabItem }), selectedIndex: $selectedIndex) { index in
-                  let type = TabType(rawValue: index) ?? .home
-                  getTabView(type: type)
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-              }
-              
-              
-          }
-
-          
-          
-          
-      }
+            
+            TabView {
+                HomeScreen_view(PPurl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg")
+                    .tabItem {
+                        Label("Şarj İşlemleri", systemImage: "externaldrive.fill.badge.wifi")
+                    }
+            }
+            
+            
+            /*
+             CustomTabView(tabs: TabType.allCases.map({ $0.tabItem }), selectedIndex: $selectedIndex) { index in
+             let type = TabType(rawValue: index) ?? .home
+             getTabView(type: type)
+             
+             */
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+    }
+  
+      
       
       @ViewBuilder
       func getTabView(type: TabType) -> some View {
@@ -49,6 +57,9 @@ struct SosyalimTabView: View {
               HomeScreen_view(PPurl: "https://rickandmortyapi.com/api/character/avatar/1.jpeg")
           }
       }
+
+
+
 }
 
 struct SosyalimTabView_Previews: PreviewProvider {
